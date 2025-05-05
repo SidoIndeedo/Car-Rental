@@ -1,8 +1,6 @@
 import React from "react";
 import "./About.css";
-import person1 from "./person1.jpg";
-import person2 from "./person2.jpg";
-import person3 from "./person3.jpg";
+import p from "./p.jpg";
 
 const About = () => {
   return (
@@ -31,25 +29,14 @@ const About = () => {
       </section>
 
       <section className="team-section">
-        <h2>Our Team</h2>
+        <h2>Creator</h2>
         <div className="team-member">
-          <img src={person1} alt="Team Member 1" />
-          <h3>Gourav Garg</h3>
-          <p>CEO</p>
-        </div>
-        <div className="team-member">
-          <img src={person2} alt="Team Member 2" />
-          <h3>Eva Aggarwal</h3>
-          <p>Sales Manager</p>
-        </div>
-        <div className="team-member">
-          <img src={person3} alt="Team Member 3" />
-          <h3>Boomika</h3>
-          <p>Founder</p>
+          <img alt="Sidharth" src={p} />
+          <h3>Sidharth</h3>
         </div>
       </section>
 
-      <section className="testimonials-section">
+      {/* <section className="testimonials-section">
         <h2>Testimonials</h2>
         <div className="testimonial">
           <p>
@@ -73,19 +60,19 @@ const About = () => {
           </p>
           <cite>- Bhoomika</cite>
         </div>
-      </section>
+      </section> */}
 
       <section className="mission-section">
-        <h2>Our Mission</h2>
+        <h2>My Goal</h2>
         <p>
           At Car & Bike Emporium, our mission is to revolutionize the way people
-          buy vehicles. We strive to provide a seamless and transparent
+          buy vehicles. I strive to provide a seamless and transparent
           purchasing experience, ensuring that our customers find the perfect
           vehicle to suit their lifestyle and budget.
         </p>
         <p>
-          We are committed to offering a diverse selection of high-quality cars
-          and bikes, coupled with exceptional customer service and support. Our
+          I am committed to offering a diverse selection of high-quality cars
+          and bikes, coupled with exceptional customer service and support. My
           goal is to exceed our customers' expectations at every step of the
           journey, from browsing our inventory to driving off the lot.
         </p>
